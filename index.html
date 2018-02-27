@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    
+    <style>
+      .head {
+        font-size: 50px;
+        text-align: center;
+        padding-top: 50px;
+      }
+
+      .hand {
+        text-align: center;
+      }
+
+      .go {
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+      }
+
+      .search {
+        text-align: center;
+        padding-top: 70px;
+      }
+    </style>
+    
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="head">WikiPedia API Search</h1><br><br><br><br>
+      <div class="go">Go to the random knwoledge</div><br/>  
+      <a href="https://en.wikipedia.org/wiki/Special:Random" target="blank">
+          <div class="hand">
+          <i class="fa fa-hand-o-up" style="font-size:36px; color:#1E90FF"></i>
+            </a></div>
+      <div class="search">
+      <input class="from-control" id="searchTerm">
+          <button id="search" type="button" class="btn btn-primary" style="background-color:#1E90FF">Search</button>
+      </div>
+      <ul id="output">
+
+      </ul>
+    </div>
+  </body>
+</html>
